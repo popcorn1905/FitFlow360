@@ -1,0 +1,52 @@
+.features-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.features-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+
+.features-header .highlight {
+    color: #ff4500;
+}
+
+.features-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+.feature-item {
+    width: 250px;
+    text-align: center;
+}
+
+.feature-icon {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.feature-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.feature-item p {
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.learn-more {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+}
+

@@ -1,0 +1,98 @@
+/* Main container */
+.login-container {
+    display: flex;
+    flex-direction: row; /* Arrange items side by side */
+    justify-content: space-between;
+    align-items: center; /* Align vertically in the center */
+    width: 100%;
+    height: 70vh; /* Full screen height */
+/*     padding: 50px; */
+    background-color: white;
+  }
+ 
+  /* Left Section - Welcome Text */
+  .left-section {
+    flex: 1; /* Take up equal space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the left */
+    padding: 40px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+  }
+ 
+  .welcome-text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+ 
+  .login-highlight {
+    color: #ff450f;
+  }
+ 
+  .subtext {
+    font-size: 1.2rem;
+    color: gray;
+    margin-top: 10px;
+    text-align: left; /* Ensure left alignment */
+  }
+ 
+  /* Right Section - Login Form */
+  .right-section {
+    flex: 1; /* Take up equal space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin-right: 150px;
+  }
+ 
+  /* Input fields */
+  .right-section input {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ff450f;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+ 
+  /* Buttons */
+  .login-button-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+ 
+  .login-button {
+    padding: 12px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+ 
+  .login-button:hover {
+    background-color: gray;
+  }
+ 
+  .explore-button {
+    padding: 12px 20px;
+    background-color: transparent;
+    color: black;
+    font-size: 1rem;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+ 
+  .explore-button:hover {
+    color: #ff450f;
+  } 
